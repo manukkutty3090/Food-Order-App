@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Meal_Order_App/static/css/main.8dafd851.chunk.css",
-    "main.js": "/Meal_Order_App/static/js/main.abedd7cb.chunk.js",
-    "main.js.map": "/Meal_Order_App/static/js/main.abedd7cb.chunk.js.map",
-    "runtime-main.js": "/Meal_Order_App/static/js/runtime-main.e0eb19db.js",
-    "runtime-main.js.map": "/Meal_Order_App/static/js/runtime-main.e0eb19db.js.map",
-    "static/js/2.c96fb349.chunk.js": "/Meal_Order_App/static/js/2.c96fb349.chunk.js",
-    "static/js/2.c96fb349.chunk.js.map": "/Meal_Order_App/static/js/2.c96fb349.chunk.js.map",
-    "index.html": "/Meal_Order_App/index.html",
-    "static/css/main.8dafd851.chunk.css.map": "/Meal_Order_App/static/css/main.8dafd851.chunk.css.map",
-    "static/js/2.c96fb349.chunk.js.LICENSE.txt": "/Meal_Order_App/static/js/2.c96fb349.chunk.js.LICENSE.txt",
-    "static/media/meals.2971f633.jpg": "/Meal_Order_App/static/media/meals.2971f633.jpg"
+    "main.css": "/Food-Order-App/static/css/main.8dafd851.chunk.css",
+    "main.js": "/Food-Order-App/static/js/main.abedd7cb.chunk.js",
+    "main.js.map": "/Food-Order-App/static/js/main.abedd7cb.chunk.js.map",
+    "runtime-main.js": "/Food-Order-App/static/js/runtime-main.25a86566.js",
+    "runtime-main.js.map": "/Food-Order-App/static/js/runtime-main.25a86566.js.map",
+    "static/js/2.c96fb349.chunk.js": "/Food-Order-App/static/js/2.c96fb349.chunk.js",
+    "static/js/2.c96fb349.chunk.js.map": "/Food-Order-App/static/js/2.c96fb349.chunk.js.map",
+    "index.html": "/Food-Order-App/index.html",
+    "static/css/main.8dafd851.chunk.css.map": "/Food-Order-App/static/css/main.8dafd851.chunk.css.map",
+    "static/js/2.c96fb349.chunk.js.LICENSE.txt": "/Food-Order-App/static/js/2.c96fb349.chunk.js.LICENSE.txt",
+    "static/media/meals.2971f633.jpg": "/Food-Order-App/static/media/meals.2971f633.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0eb19db.js",
+    "static/js/runtime-main.25a86566.js",
     "static/js/2.c96fb349.chunk.js",
     "static/css/main.8dafd851.chunk.css",
     "static/js/main.abedd7cb.chunk.js"

@@ -8,6 +8,7 @@ function Cart(props) {
   const cartCtx = useContext(CartContext);
   const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
   const hasItems = cartCtx.items.length > 0;
+
   const cartItemRemovehandler = (id) => {
     cartCtx.removeItem(id);
   };
@@ -28,6 +29,15 @@ function Cart(props) {
       ))}
     </ul>
   );
+
+  const placeOrderHandler = () => {
+    <CartContext.Consumer>
+      {cartCtx.items.splice(0, cartCtx.items.length)}
+    </CartContext.Consumer>;
+    alert("Thanks for ordering!, your order will be delivered soon💕");
+    props.onHideCart();
+  };
+
   return (
     <Modal onHideCart={props.onHideCart}>
       {cartItems}
@@ -39,7 +49,11 @@ function Cart(props) {
         <button className={classes["button--alt"]} onClick={props.onHideCart}>
           close
         </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && (
+          <button className={classes.button} onClick={placeOrderHandler}>
+            Order
+          </button>
+        )}
       </div>
     </Modal>
   );

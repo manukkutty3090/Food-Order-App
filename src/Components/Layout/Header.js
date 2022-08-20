@@ -9,6 +9,9 @@ function Header(props) {
       <header className={classes.header}>
         <h1>ORDER FOOD</h1>
         <HeaderCartButton onClick={props.onShowCart} />
+        <button className={classes.logout} onClick={props.onLogout}>
+          Logout
+        </button>
       </header>
       <div className={classes["main-image"]}>
         <img src={foodImage} alt="A table full of food!" />
